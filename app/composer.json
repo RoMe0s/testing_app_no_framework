@@ -1,0 +1,14 @@
+{
+  "require": {
+    "symfony/http-foundation": "^5.0",
+    "doctrine/orm": "^2.7",
+    "ext-json": "*",
+    "vlucas/phpdotenv": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/",
+      "Domain\\": "Domain/"
+    }
+  }
+}
